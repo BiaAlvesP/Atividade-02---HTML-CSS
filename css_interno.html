@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Interno</title>
+    <style>
+   .bloco_laranja { 
+    width:500px; 
+    height: 500px;
+    background-color: #f89a3c
+   }
+    .bloco_laranja .verde{ 
+        background-color:#89e45b;
+        width: 50%;
+        height: 50%
+
+    }
+
+    .bloco_laranja .verde .vermelho{ 
+        width:100%; 
+        height: 25px;
+        color:  white; 
+        background-color: red; 
+        font-size: 25px; 
+        font-family: monospace; 
+        font-weight: bold
+
+    }
+
+    .bloco_azul{
+        width:50% ;
+        height:50vh; 
+        background-color: rgb(168, 168, 243)
+    }
+
+    .bloco_azul .bloco_vermelho{
+        width: 75vw; 
+        height: 50% ;
+        background-color: rgb(225, 39, 39)
+
+    }
+       
+    </style>
+</head>
+<body>
+    
+    <div style class="bloco_laranja">
+
+        <div style class ="verde">
+
+            <div
+                style class= "vermelho">
+            CSS Interno</div>
+
+        </div>
+    </div>
+
+<div style class="bloco_azul">
+
+    <div style class="bloco_vermelho"></div>
+
+</body>
+</html>
